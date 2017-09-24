@@ -1,0 +1,86 @@
+/**
+    GENERAL
+ */
+.margin-left{
+    margin-left: 5px;
+}
+.margin-top{
+    margin-top: 5px;
+}
+
+
+/**
+    TOP MENU
+ */
+#top-menu-bar{
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+
+}
+.transparent{
+    opacity: 0.7;
+}
+
+/**
+    INTRO
+ */
+.background-image{
+    background: #ffffff;
+    background-image: url("../img/intro_image.jpeg");
+    height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#profile-foto{
+    width: 200px;
+    height: 200px;
+    border: solid 5px #2e6da4;
+
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+
+    margin-top: 50%;
+
+    box-shadow: 5px 5px 5px #000000;
+}
+#profile-desc{
+    margin-top: 35%;
+    color: white;
+}
+.IntroLabel{
+    background-color: #2e6da4;
+    box-shadow: 5px 5px 5px #000000;
+}
+/*
+    EDUCATION
+ */
+
+/*
+    EXPERIENCE
+ */
+.background-image-experience{
+    background: #ffffff;
+    background-image: url("../img/experience.jpg");
+    height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#experience_container{
+    background-color: white;
+
+
+
+}
+.ddd{
+    border-color: blue;
+}
